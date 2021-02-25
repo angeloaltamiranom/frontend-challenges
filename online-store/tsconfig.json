@@ -1,5 +1,7 @@
 {
     "compilerOptions": {
+        "baseUrl": "./",
+        "moduleResolution": "node",
         "jsx": "react",
         "target": "ESNext",
         "strict": true,

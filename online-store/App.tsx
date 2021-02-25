@@ -1,3 +1,4 @@
+import { Management } from './pages/Management';
 import React from 'react';
 import {
     BrowserRouter,
@@ -12,6 +13,7 @@ export function App() {
     return <BrowserRouter>
         <Switch>
             <Route path="/cart" component={Cart} />
+            <Route path="/management" component={Management} />
             <Route path="/" component={Home} />
         </Switch>
     </BrowserRouter>
